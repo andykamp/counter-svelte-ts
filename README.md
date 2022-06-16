@@ -9,6 +9,9 @@ Super easy setup with vite:
 - You will be promted to choose js or ts
     - choose **svelte-ts** 
 
+## Versioning and changelog##
+
+
 ## Deployment ##
 
 
