@@ -9,6 +9,9 @@ Super easy setup with vite:
 - You will be promted to choose js or ts
     - choose **svelte-ts** 
 
+## Deployment ##
+
+
 ## Documentation ##
 
 Documentation was added top this project using [mkdocs](https://https://squidfunk.github.io/mkdocs-material/)
@@ -24,4 +27,15 @@ The following commands can be used to serve and buld the docs
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
+* `mkdocs gh-deploy --force` - Manually build and deploy the docs using github pages
+
+
+To deploy the documentation we use github pages. 
+We added a **./github/workflows/ci.yml** that builds and depoyes the docs on every push to the master/main branch
+You can also deploy it manually by doin a `mkdocs gh-deploy --force`
+
+## Testing ##
+
+
+## Logging ##
 
