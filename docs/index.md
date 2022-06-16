@@ -24,4 +24,3 @@ The following commands can be used to serve and buld the docs
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-
